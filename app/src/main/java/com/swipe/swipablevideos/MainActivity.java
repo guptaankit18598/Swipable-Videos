@@ -33,19 +33,19 @@ public class MainActivity extends AppCompatActivity {
 
         VideoItem item3 = new VideoItem();
         item3.videoURL = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video3);
-        item3.videoTitle = "Beautiful Nature";
+        item3.videoTitle = "Forest View";
         item3.videoDesc = " Refresh your mind with this Beutiful nature view.";
         videoItems.add(item3);
 
         VideoItem item1 = new VideoItem();
         item1.videoURL = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video1);
-        item1.videoTitle = "Beautiful Nature";
+        item1.videoTitle = "Flower Fields";
         item1.videoDesc = "Refresh your mind with this Beutiful nature view.";
         videoItems.add(item1);
 
         VideoItem item2 = new VideoItem();
         item2.videoURL = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video2);
-        item2.videoTitle = "Beautiful Nature";
+        item2.videoTitle = "Nature Beauty";
         item2.videoDesc = "Refresh your mind with this Beutiful nature view.";
         videoItems.add(item2);
 
